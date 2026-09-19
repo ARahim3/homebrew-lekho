@@ -1,6 +1,6 @@
 cask "lekho" do
-  version "0.2.5"
-  sha256 "62df79b5debb46788f543549fa0b79b8cc4f9bc8eee8fb982e4f8d195b8f4ef1"
+  version "0.3.0"
+  sha256 "b605d175a9c3c2a7f13f33f5638216bd35b16ff813ba43b185eba6ff1ad1f757"
 
   url "https://github.com/ARahim3/Lekho/releases/download/v#{version}/Lekho-#{version}.dmg"
   name "Lekho"
@@ -12,8 +12,8 @@ cask "lekho" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
   depends_on arch: :arm64
+  depends_on macos: :ventura
 
   pkg "Install Lekho.pkg"
 
