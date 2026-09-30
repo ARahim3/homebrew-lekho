@@ -17,7 +17,7 @@ brew install --cask lekho
 
 After install, enable it in **System Settings → Keyboard → Input Sources → Edit → +**, search for "Lekho" under Bengali, and add it. Switch with the Globe key or Ctrl+Space.
 
-> Lekho is not signed with an Apple Developer ID. On first launch you may need to allow it in **System Settings → Privacy & Security → "Allow Anyway"**.
+> Since v0.3.2, Lekho is signed with an Apple Developer ID and notarized by Apple.
 
 ## Update
 
