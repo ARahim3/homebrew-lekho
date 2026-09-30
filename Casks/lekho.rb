@@ -38,5 +38,10 @@ cask "lekho" do
 
     On a fresh install, if Lekho doesn't appear in the input source list,
     log out and back in once.
+
+    After `brew upgrade`, Lekho may disappear from the input menu, because
+    Homebrew removes the old app a few seconds before installing the new
+    one. To bring it back, remove Lekho from Input Sources and add it
+    again. Your settings and learned words are kept.
   EOS
 end
