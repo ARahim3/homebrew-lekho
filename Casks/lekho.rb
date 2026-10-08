@@ -1,6 +1,6 @@
 cask "lekho" do
   version "0.4.2"
-  sha256 "51d7ca8cf9adda645d44748fba8df5ee9864ce914e315038b719315b3c0b4e3b"
+  sha256 "64d48612bdc6fdb29dcb10737f55f95683673534881fea4c61fe1fec8a64def6"
 
   url "https://github.com/ARahim3/Lekho/releases/download/v#{version}/Lekho-#{version}.dmg"
   name "Lekho"
